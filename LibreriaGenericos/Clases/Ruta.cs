@@ -4,8 +4,9 @@ using System.Text;
 
 namespace LibreriaGenericos.Clases
 {
-    class Ruta : Cifrado
+   public class Ruta : Cifrado
     {
+
         protected override void Cifrar(string RutaOriginal, string RutaDestino)
         {
             throw new NotImplementedException();
