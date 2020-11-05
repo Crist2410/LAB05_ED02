@@ -5,7 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Archivos Decifrados\" />
+    <Compile Remove="Archivos Decifrados\**" />
+    <Content Remove="Archivos Decifrados\**" />
+    <EmbeddedResource Remove="Archivos Decifrados\**" />
+    <None Remove="Archivos Decifrados\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Archivos\" />
   </ItemGroup>
 
